@@ -22,4 +22,25 @@ final class TableTests: XCTestCase {
         XCTAssertFalse(sut.isPositionValid(Position(x: 0, y: -1)))
         XCTAssertFalse(sut.isPositionValid(Position(x: 1, y: 5)))
     }
+    
+    func testReport() {
+        let robot = RobotMock(table: sut, direction: .north, initialPosition: Position(x: 3, y: 2))
+        XCTAssertEqual(sut.report(with: robot), "_ _ _ _ _ \n_ _ _ _ _ \n_ _ _ R _ \n_ _ _ _ _ \n_ _ _ _ _ \n")
+    }
+}
+
+private final class RobotMock: RobotProtocol {
+    var position: Position
+    
+    init(table: TableProtocol, direction: Direction, initialPosition: Position) {
+        self.position = initialPosition
+    }
+    
+    func move() {}
+    
+    func turnLeft() {}
+    
+    func turnRight() {}
+    
+    func report() -> String { "" }
 }

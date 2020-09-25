@@ -1,6 +1,6 @@
 import Foundation
 
-public struct Position {
+public struct Position: Equatable {
     var x: Int
     var y: Int
     

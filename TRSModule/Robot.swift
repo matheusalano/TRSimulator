@@ -12,10 +12,10 @@ public protocol RobotProtocol: AnyObject {
 }
 
 public final class Robot: RobotProtocol {
-    //MARK: Private variables
+    //MARK: Internal variables
     
-    private var direction: Direction
-    private weak var table: TableProtocol?
+    var direction: Direction
+    weak var table: TableProtocol?
     
     //MARK: Public variables
     

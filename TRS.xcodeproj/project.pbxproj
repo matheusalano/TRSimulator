@@ -18,6 +18,10 @@
 		17A850B0251E1E64007DFA13 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176EA2E8251D8AE900E5CB5B /* Position.swift */; };
 		17A850B1251E1E64007DFA13 /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176EA2EA251D8C0E00E5CB5B /* Simulator.swift */; };
 		17A850B2251E1E64007DFA13 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176EA2E6251D880D00E5CB5B /* Robot.swift */; };
+		17A850B4251E4EB7007DFA13 /* DirectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A850B3251E4EB7007DFA13 /* DirectionTests.swift */; };
+		17A850B6251E4FA3007DFA13 /* PositionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A850B5251E4FA3007DFA13 /* PositionTests.swift */; };
+		17A850B8251E5083007DFA13 /* RobotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A850B7251E5083007DFA13 /* RobotTests.swift */; };
+		17A850BA251E525D007DFA13 /* SimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A850B9251E525D007DFA13 /* SimulatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +78,10 @@
 		17A85093251E1E25007DFA13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17A85098251E1E25007DFA13 /* TRSModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRSModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A8509F251E1E25007DFA13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17A850B3251E4EB7007DFA13 /* DirectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionTests.swift; sourceTree = "<group>"; };
+		17A850B5251E4FA3007DFA13 /* PositionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionTests.swift; sourceTree = "<group>"; };
+		17A850B7251E5083007DFA13 /* RobotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotTests.swift; sourceTree = "<group>"; };
+		17A850B9251E525D007DFA13 /* SimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +159,10 @@
 			children = (
 				17A85086251E1098007DFA13 /* TableTests.swift */,
 				17A8509F251E1E25007DFA13 /* Info.plist */,
+				17A850B3251E4EB7007DFA13 /* DirectionTests.swift */,
+				17A850B5251E4FA3007DFA13 /* PositionTests.swift */,
+				17A850B7251E5083007DFA13 /* RobotTests.swift */,
+				17A850B9251E525D007DFA13 /* SimulatorTests.swift */,
 			);
 			path = TRSModuleTests;
 			sourceTree = "<group>";
@@ -314,7 +326,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17A850B8251E5083007DFA13 /* RobotTests.swift in Sources */,
+				17A850B6251E4FA3007DFA13 /* PositionTests.swift in Sources */,
+				17A850BA251E525D007DFA13 /* SimulatorTests.swift in Sources */,
 				17A850AD251E1E53007DFA13 /* TableTests.swift in Sources */,
+				17A850B4251E4EB7007DFA13 /* DirectionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

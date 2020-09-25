@@ -2,9 +2,9 @@ import Foundation
 
 public final class Simulator<R: RobotProtocol, T: TableProtocol> {
     
-    private var robot: R?
+    var robot: R?
     
-    private let table: T
+    let table: T
     
     public init(tableSize: Int) {
         table = T(size: tableSize)
