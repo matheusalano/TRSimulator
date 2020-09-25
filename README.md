@@ -10,3 +10,7 @@
 2. Select `File` option.
 3. Enter the file's full path.
 4. Check expected output (`1,4,NORTH`).
+
+## How to unit test
+1. Select `TRSModule` target.
+2. Press `Command ⌘ + U`.
