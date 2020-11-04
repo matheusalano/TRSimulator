@@ -1,4 +1,4 @@
-# TRSimulator
+# Toy Robot Simulator
 
 ## How to build
 1. Open `TRS.xcodeproj`
